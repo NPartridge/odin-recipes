@@ -1,6 +1,6 @@
 body {
 	font-family: "Lucida console", "Courier New", monospace;
-	background-image: url("swedish_chef.jpg");
+	background-image: url("chef.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -18,24 +18,29 @@ h2{
 	text-align: left;
 }
 
+.container{
+	width: 500px;
+	margin: 30px auto;
+	background-color: whitesmoke;
+}
+
 .index-ul {
 	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	width: 300px;
-	background-color: dimgrey;
+	padding: 0px;
+	text-align: center;
 }
 
 .index-ul li a {
 	display: block;
 	color: white;
-	padding: 8px 16px;
+	background: black;
 	text-decoration: none;
+	padding: 10px;
 }
 
 .index-ul li a:hover{
-	background-color: black;
-	color: white;
+	background-color: yellowgreen;
+	color: black;
 }
 
 img{
@@ -62,10 +67,9 @@ ol {
 .ingredients-ul {
 	list-style-type: disc;
 	list-style-position: inside;
-	background-color: grey;
-	color: white;
-	padding: 10px;
-
 }
 
 
+footer{
+	text-align: center;
+}
